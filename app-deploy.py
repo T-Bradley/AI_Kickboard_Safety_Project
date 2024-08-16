@@ -11,12 +11,12 @@ from camera_input_live import camera_input_live
 import cv2
 
 st.set_page_config(
-    page_title = "AI Fire Safety Project", 
-    page_icon = ":fire:",
+    page_title = "AI Kickboard Safety Project", 
+    page_icon = ":scooter:",
     layout = "centered", 
     initial_sidebar_state = "expanded")
 
-st.title("AI Smoke and Fire Detection :fire:")
+st.title("AI Kickboard Safety Project :scooter:")
 
 
 def play_video(video_source):
